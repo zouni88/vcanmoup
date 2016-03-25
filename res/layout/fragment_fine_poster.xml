@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+	
+    
+    <ImageView 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/near_future_fine_poster"
+        android:textSize="@dimen/fine_poster_title"
+        android:textColor="@color/fine_poster_title"
+        android:layout_marginTop="23dp"
+        android:layout_marginLeft="25dp" />
+    
+    <GridView 
+        android:id="@+id/fine_poster_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"
+		android:layout_marginLeft="22dp"
+		android:layout_marginRight="22dp"
+		android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:listSelector="@color/transparent" />
+    
+</LinearLayout>

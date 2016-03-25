@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/translucent_home_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/popupwindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/camera_get"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_camera_get_btn" />
+
+        <TextView
+            android:id="@+id/camera_get_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/camera_get_img"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edit_choose_text" />
+
+        <Button
+            android:id="@+id/album_import"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/edit_album_import_btn" />
+
+        <TextView
+            android:id="@+id/album_import_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/album_import_img"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edit_choose_text" />
+
+        <Button
+            android:id="@+id/meterial_lib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/edit_material_lib_btn" />
+
+        <TextView
+            android:id="@+id/meterial_lib_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:gravity="center"
+            android:text="@string/material_lib"
+            android:textColor="@color/white"
+            android:textSize="@dimen/edit_choose_text" />
+    </LinearLayout>
+
+</RelativeLayout>

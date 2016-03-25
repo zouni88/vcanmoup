@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="25dp"
+        android:text="2015年3月15日" />
+
+    <GridView 
+        android:id="@+id/finePoster_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+      	android:gravity="center"
+      	android:listSelector="@color/transparent"
+        android:numColumns="3" />
+    
+</LinearLayout>

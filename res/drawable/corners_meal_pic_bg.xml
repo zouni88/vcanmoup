@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<shape xmlns:android="http://schemas.android.com/apk/res/android">   
+    <solid android:color="@color/transparent" />   
+    <corners android:topLeftRadius="10dp"  
+             android:topRightRadius="10dp" />   
+             
+    <!-- 描边 -->
+    <stroke
+        android:width="@dimen/divider"
+        android:color="@color/divider_brown_1"/>
+</shape>

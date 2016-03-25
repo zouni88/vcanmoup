@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/popupwindow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="29dp"
+        android:background="@color/transparent"
+        android:orientation="vertical" >
+
+
+        <Button
+            android:id="@+id/falst_make_poster"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/share_margin_left"
+            android:layout_marginRight="@dimen/share_margin_right"
+            android:background="@drawable/corners_consume_pop_bg"
+            android:text="@string/fast_make_poster"
+            android:textColor="@color/fine_poster_title"
+            android:textSize="@dimen/return_text" />
+                <Button
+            android:id="@+id/user_default_board"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/falst_make_poster"
+            android:layout_marginLeft="@dimen/share_margin_left"
+            android:layout_marginRight="@dimen/share_margin_right"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/corners_consume_pop_bg"
+            android:text="@string/use_default_board"
+            android:textColor="@color/fine_poster_title"
+            android:textSize="@dimen/return_text" />
+        
+        <Button
+            android:id="@+id/return_dismiss"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/user_default_board"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="@dimen/share_margin_left"
+            android:layout_marginRight="@dimen/share_margin_right"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corners_consume_pop_bg"
+            android:text="@string/edit_return"
+            android:textColor="@color/fine_poster_title"
+            android:textSize="@dimen/return_text" />
+    </RelativeLayout>
+
+</RelativeLayout>

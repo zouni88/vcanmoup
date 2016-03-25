@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout 
+        android:id="@+id/poster_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/sophie"
+        android:layout_weight="1"
+        android:layout_marginBottom="@dimen/nav_height"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/edit_add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/edit_add_btn"
+            android:layout_marginBottom="19dp" />
+
+        <Button
+            android:id="@+id/edit_help_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_add_btn"
+            android:layout_alignBottom="@+id/edit_add_btn"
+            android:layout_marginRight="24dp"
+            android:layout_toLeftOf="@+id/edit_add_btn"
+			android:background="@drawable/edit_help_btn" />
+
+        <Button
+            android:id="@+id/edit_arrow_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_add_btn"
+            android:layout_alignBottom="@+id/edit_add_btn"
+            android:layout_marginLeft="23dp"
+            android:background="@drawable/edit_arrow_btn"
+            android:layout_toRightOf="@+id/edit_add_btn" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:gravity="center"
+        android:layout_above="@id/poster_root"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/edit_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red_home"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/edit_return_btn"
+            android:gravity="center"
+            android:text="@string/edit_return"
+            android:textColor="@color/white"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_save_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/edit_save_preview_normal"
+            android:gravity="center"
+            android:text="@string/edit_save_and_preview"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_set"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/edit_set_normal"
+            android:gravity="center"
+            android:text="@string/edit_set"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_add_page"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/edit_add_page_normal"
+            android:gravity="center"
+            android:text="@string/edit_add_page"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+    </LinearLayout>
+
+</RelativeLayout>

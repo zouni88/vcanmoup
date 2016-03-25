@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fcf="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.shenzhoumeiwei.vcanmou.animoto.views.DraggableGridView_h
+        android:id="@+id/vgv"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff00" >
+    </com.shenzhoumeiwei.vcanmou.animoto.views.DraggableGridView_h>
+
+    <com.shenzhoumeiwei.vcanmou.fancycoverflow.FancyCoverFlow
+        android:id="@+id/fancyCoverFlow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/blu"
+        fcf:maxRotation="15"
+        fcf:scaleDownGravity="0.2"
+        fcf:unselectedAlpha="0.3"
+        fcf:unselectedSaturation="0.0"
+        fcf:unselectedScale="0.4" />
+
+</LinearLayout>

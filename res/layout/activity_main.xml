@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="inPosterPage"
+            android:text="海报制作首页面" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="editPage"
+            android:text="拍摄完编辑" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiUpLoadImg"
+            android:text="testApiUpLoadImg" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiTextImg"
+            android:text="testApiTextImg" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiGetBoardInfo"
+            android:text="testApiGetBoardInfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiAddBoardInfo"
+            android:text="testApiAddBoardInfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiUpdateBoardInfo"
+            android:text="testApiUpdateBoardInfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiDeleteBoard"
+            android:text="testApiDeleteBoard" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiGetPosterPage"
+            android:text="testApiGetPosterPage" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiPosterPageSort"
+            android:text="testApiPosterPageSort" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiUpdatePosterPage"
+            android:text="testApiUpdatePosterPage" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiGetPoster"
+            android:text="testApiGetPoster" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiAddPoster"
+            android:text="testApiAddPoster" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiUpdatePoster"
+            android:text="testApiUpdatePoster" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiPublishPoster"
+            android:text="testApiPublishPoster" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiAddTemplateInfo"
+            android:text="testApiAddTemplateInfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiGetTemplateInfo"
+            android:text="testApiGetTemplateInfo" />
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiUpdateTemplateInfo"
+            android:text="testApiUpdateTemplateInfo" />
+	        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testApiGetPosterType"
+            android:text="testApiGetPosterType" />
+	        
+    </LinearLayout>
+
+</ScrollView>

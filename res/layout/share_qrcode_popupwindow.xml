@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC000000"
+    android:orientation="vertical"
+    android:paddingTop="20dp" >
+
+    <Button
+        android:id="@+id/save_phone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/return_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/share_margin_left"
+        android:layout_marginRight="@dimen/share_margin_right"
+        android:background="@drawable/corners_consume_pop_bg"
+        android:text="@string/save_phone"
+        android:textColor="@color/fine_poster_title"
+        android:textSize="@dimen/return_text" />
+
+    <Button
+        android:id="@+id/return_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="@dimen/share_margin_left"
+        android:layout_marginRight="@dimen/share_margin_right"
+        android:background="@drawable/corners_consume_pop_bg"
+        android:text="@string/share_return"
+        android:textColor="@color/fine_poster_title"
+        android:textSize="@dimen/return_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="108dp"
+        android:background="@drawable/rect_gray_1"
+            android:padding="7dp"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/qrcode"
+            android:layout_width="@dimen/qrcode_width"
+            android:layout_height="@dimen/qrcode_height"
+            android:scaleType="fitXY"
+            android:background="@color/white"
+            android:src="@drawable/sophie" />
+    </LinearLayout>
+
+</RelativeLayout>

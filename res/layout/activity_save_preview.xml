@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/nav_height"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/edit_return"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/red_home"
+            android:drawableTop="@drawable/edit_return_btn"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/edit_return"
+            android:textColor="@color/white"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_save_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/edit_save_preview_normal"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/save_another_time"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_set"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/edit_set_normal"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/release_share"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+
+        <TextView
+            android:id="@+id/edit_add_page"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/edit_add_page_normal"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:text="@string/continue_edit"
+            android:textColor="@color/poster_home_nav_text"
+            android:textSize="@dimen/poster_home_nav_text" />
+    </LinearLayout>
+
+</LinearLayout>

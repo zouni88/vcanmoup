@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VCanmou</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- http -->
+    <string name="http_error">网络不给力</string>
+
+    <!-- 自定义dialog -->
+    <string name="loading">正在加载...</string>
+
+    <!-- 导航菜单 -->
+    <string name="nav_home">餐谋首页</string>
+    <string name="nav_new_make">制作新海报</string>
+    <string name="nav_my_poster">我的海报</string>
+    <string name="nav_share">分享传播</string>
+    <string name="poster_home_my_poster">我的海报</string>
+    <string name="poster_home_my_collection">我的收藏</string>
+    <string name="poster_home_unfinish">未做完的</string>
+    <string name="poster_home_lib">模板库</string>
+    <string name="poster_home_fine_poster">优秀海报</string>
+    <string name="recent_poster">近期海报</string>
+    <string name="recent_poster_en">Recen Outstanding Poster</string>
+    <string name="share_return">返回</string>
+    <string name="save_phone">保存到手机</string>
+
+    <!-- 模板库 -->
+    <string name="choose_class">筛选主题分类</string>
+    <string name="best_new">最新</string>
+    <string name="best_hot">最热</string>
+    
+    <!-- 编辑海报页面 -->
+    <string name="edit_return">返回</string>
+    <string name="edit_save_and_preview">保存并预览效果</string>
+    <string name="edit_set">页面设置</string>
+    <string name="edit_add_page">再添加一页</string>
+    <string name="edit_title">点击白框文字可编辑,长按可拖动及设置大小！更多设置可点击《页面设置》,加号 可增加文字或图片模块。</string>
+    <string name="text_board_hide">请输入标题</string>
+    <string name="text_board_content">请在此输入与图片内容相匹配的详细信息......</string>
+    <string name="fast_make_poster">DIY,快速制作海报！</string>
+    <string name="use_default_board">使用预设模板,制作</string>
+    <!-- 选择资源来源 -->
+    <string name="camera_get_img">相机取图</string>
+    <string name="album_import_img">相册导入</string>
+    <string name="material_lib">素材库导入</string>
+    <string name="camera_close">关闭</string>
+    <string name="camera_open">打开</string>
+
+    <!-- 编辑文字 -->
+    <string name="edit_text">编辑文字</string>
+    <string name="finish">完成</string>
+    <string name="font">字体</string>
+    <string name="color">颜色</string>
+    <string name="animation">动画</string>
+    <string name="bg_color">底色</string>
+    <string name="preview">预览</string>
+    <string name="delete_board">删除本模块</string>
+    <string name="add_click_function">添加点击功能</string>
+    
+    <string name="page_set">页面设置</string>
+    <string name="bg_set">背景设置</string>
+   	<string name="music_set">音乐设置</string>
+   	<string name="belong_class_set">所属分类设置</string>
+   	<string name="public_set">公开设置</string>
+   	<string name="set_notice">设置公开后,海报将在优秀海报中显示</string>
+   	
+   	<string name="switch_on"></string>
+    <string name="switch_off"></string>
+ 
+    <string name="add_img_board">添加图片版块</string>
+    <string name="add_text_board">添加文字版块</string>
+    
+    <!-- 预览 -->
+    <string name="save_another_time">保存下次再做</string>
+    <string name="release_share">发布分享</string>
+    <string name="continue_edit">继续编辑</string>
+</resources>

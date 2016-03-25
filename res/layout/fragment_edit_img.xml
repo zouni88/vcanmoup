@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/poster_root"
+    android:layout_width="match_parent"
+    android:layout_height="0dip"
+    android:layout_weight="1"
+    android:background="@drawable/sophie"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/notice_title_height"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="23dp"
+        android:background="@color/transparent_white"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/edit_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/edit_title_text" />
+
+    <Button
+        android:id="@+id/add_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/edit_add_btn"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_board"
+        android:layout_alignBottom="@+id/add_board"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/add_board"
+        android:background="@drawable/edit_help_btn" />
+
+</RelativeLayout>
